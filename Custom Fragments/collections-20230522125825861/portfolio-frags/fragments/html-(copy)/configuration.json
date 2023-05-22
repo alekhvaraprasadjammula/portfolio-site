@@ -1,0 +1,54 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+				      "name": "fontsize",
+				      "label": "Heading",
+				      "description": "heading",
+				      "type": "select",
+				      "dataType": "string",
+				      "typeOptions": {
+				          "validValues": [
+				                {"value": "88px"},
+		                    {"value": "48px"},
+		                    {"value": "24px"},
+		                    {"value": "18px"},
+			                 ]
+				    },
+            "defaultValue": "18px"
+				},
+				{
+					    "name": "fontfamily",
+				      "label": "Heading Font",
+				      "description": "heading font",
+				      "type": "select",
+				      "dataType": "string",
+				      "typeOptions": {
+								"validValues": [
+									{"value": "Space Grotesk Bold"},
+									{"value": "Space Grotesk Medium"},
+								]
+				},
+					"defaultValue": "Space Grotesk Bold"
+				},
+				{
+					    "name": "lineheight",
+				      "label": "Heading lineheight",
+				      "description": "heading lineheight",
+				      "type": "select",
+				      "dataType": "string",
+					    "typeOptions": {
+								"validValues": [
+									{"value": "88px"},
+									{"value": "56px"},
+									{"value": "32px"},
+									{"value": "28px"},
+								]
+							},
+					    "defaultValue": "28px"
+				},
+			]
+		}
+	]
+}

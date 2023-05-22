@@ -1,0 +1,77 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk);
+
+
+body {
+    background-color: black;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.page-editor__container {
+    background-color: black;
+}
+
+.header {
+    color: white;
+}
+
+.page-editor__col__border {
+    text-align: left;
+}
+
+.contact-me-link {
+    color: #ffffff;
+    border-bottom: 2px solid #4EE1A0;
+    letter-spacing: 2.29px;
+    text-decoration: none;
+}
+
+.contact-me-link:hover {
+    color: #4EE1A0;
+}
+
+.project__link,
+.code__link {
+    color: #ffffff;
+    border-bottom: 2px solid #4EE1A0;
+
+}
+
+.project__link:hover {
+    color: #4EE1A0;
+}
+
+.code__link:hover {
+    color: #4EE1A0;
+}
+
+.form-control {
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+label {
+    color: white;
+}
+
+use {
+    display: none;
+}
+
+lfr-layout-structure-item-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
